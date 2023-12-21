@@ -14,9 +14,9 @@ const TopBanner=(props)=> {
     <div className='Header-content'>
       <p>Do You Need a business account?</p>
 </div>
-    <di className='Header'>
+    <div className='Header'>
       <button>SIGN UP NOW</button>
-</di>
+</div>
 
 
 <ul >

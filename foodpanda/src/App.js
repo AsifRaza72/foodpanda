@@ -5,6 +5,7 @@ import Cities from './components/Body/Cities'
 import AppSection from './components/Body/AppsSection'
 import About from './components/Body/About';
 import Footer from './components/Footer/Footer'
+import FooterContent from './components/Footer/FooterContent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 <AppSection/>
 <About/>
 <Footer/>
+<FooterContent></FooterContent>
 
     </div>
   );

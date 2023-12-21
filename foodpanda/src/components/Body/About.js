@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
   return (
-    <section class="content_container">
+    <section className="content_container">
     <h1>Order food and groceries online from the best restaurants and shops on foodpanda</h1>
     <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your every day easier.</p>
    <h1>What's new?</h1>
@@ -30,7 +30,7 @@ function About() {
 <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
 <h3>What restaurants let you order online?</h3>
 <p>There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example, KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees and many-many more! In order to check all the restaurants near you that deliver, just type in your address and discover all the available places.</p>
-<hr/>
+
 </section>
   )
 }

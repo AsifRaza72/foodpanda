@@ -1,0 +1,26 @@
+.FooterContent_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.country-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Create 10 equal-width columns */
+    grid-gap: 10px; /* Add 10px spacing between items */
+    margin: 0 auto; /* Center the grid horizontally */
+  }
+  .country-grid a {
+    text-decoration: none; /* Remove default link underline */
+    display: block;
+    color: black; /* Ensure links take up full grid item space */
+    padding: 10px; /* Add padding for better clickability */
+    border-right: 1px solid #ddd; /* Add right border to each country */
+  }
+  .country-grid a:last-child {
+    border-right: none; /* Remove border from last country */
+  }
+  /* Optional hover effect for links */
+  .country-grid a:hover {
+    background-color: #f5f5f5;
+    color: blue;
+  }

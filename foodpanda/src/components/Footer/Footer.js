@@ -4,11 +4,12 @@ import img from '../Images/foodpanda-grey.png'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer_logo'>
 
         <hr/>
-        <img className='footer_logo' src={img} alt='img'/> 
-        <hr/></div>
+        <img  src={img} alt='img'/> 
+        <hr/>
+        </div>
   )
 }
 
