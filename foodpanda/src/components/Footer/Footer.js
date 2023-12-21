@@ -1,12 +1,14 @@
 import React from 'react'
 import './Footer.css'
+import img from '../Images/foodpanda-grey.png'
 
 function Footer() {
   return (
     <div>
 
-        <hr></hr>  
-        <img className='footer_logo' src='../Images/foodpanda-grey.png' alt='img'/> </div>
+        <hr/>
+        <img className='footer_logo' src={img} alt='img'/> 
+        <hr/></div>
   )
 }
 
