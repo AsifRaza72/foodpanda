@@ -1,0 +1,204 @@
+.parent{
+  width: auto;
+  height: 90rem;
+}
+.cities-section-heading{
+  padding-left: 4%;
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.cities p{
+  margin: 72% 0 0 2%;
+  left: 0;
+  bottom: 0;
+  color:black;
+  background-color: white;
+  width:fit-content;
+  height: 10px;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.img1{
+  height: 16rem;
+  background-image: url('../Images/karachi.jpeg');
+  background-repeat: no-repeat;
+}
+.img1 :hover{
+  transform: scale(1.03);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.item2{
+  height: 15rem;
+  background-image: url('../Images/lahore.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item3{
+  height: 15rem;
+  background-image: url('../Images/isb.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.item4{
+  height: 15rem;
+  background-image: url('../Images/pindi.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item5{
+  height: 15rem;
+  background-image: url('../Images/faisal.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.item6{
+  height: 15rem;
+  background-image: url('../Images/multan.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item7{
+  height: 15rem;
+  background-image: url('../Images/hyderabad.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item8{
+  height: 15rem;
+  background-image: url('../Images/sialkot.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item9{
+  height: 15rem;
+  background-image: url('../Images/peshawar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item10{
+  height: 15rem;
+  background-image: url('../Images/sukkur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img11{
+  height: 15rem;
+  background-image: url('../Images/murree.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img12{
+  height: 15rem;
+  background-image: url('../Images/mangla.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img13{
+  height: 15rem;
+  background-image: url('../Images/panoAqil.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img14{
+  height: 15rem;
+  background-image: url('../Images/bawalpur.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img15{
+  height: 15rem;
+  background-image: url('../Images/sadiqAbad.jpeg');
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+.img16{
+  height: 15rem;
+  background-image: url('../Images/larkana.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img17{
+  height: 15rem;
+  background-image: url('../Images/sahiwal.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img18{
+  height: 15rem;
+  background-image: url('../Images/cantt.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img19{
+  height: 15rem;
+  background-image: url('../Images/abbotabad.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img20{
+  height: 15rem;
+  background-image: url('../Images/Rahim.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px){
+  .sections{
+    display: block;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .cities{
+    float: left;
+    margin-left: 2rem;
+    width: 20%;
+    height: 174px;
+    background-size: cover;
+ }
+
+
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    padding: 1rem 0;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin: 0.5rem;
+    border-radius: 12px;
+  }
+  /* .d{
+    background-size: cover;
+    width: 15rem;
+    background-repeat: no-repeat;
+
+  } */
+  .item1{
+    height: 15rem;
+    background-image: url('../Images/karahi2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
