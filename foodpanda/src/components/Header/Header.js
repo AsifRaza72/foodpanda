@@ -1,9 +1,8 @@
 import React from 'react'
-// import {Link,useNavigate} from 'react-router-dom'
-// import img from "../Images/logo.png"
+import img from "../Images/logo.png"
 import "../Header/Header.css"
-// import  CartIcon from '../UI/Carts/CartIcon'
-// import Login from '../Login/Login'
+import  CartIcon from '../UI/Carts/CartIcon'
+import Login from '../Login/Login'
 import TopBanner from './TopBanner'
 const Header=()=>{
     // const [click ,setclick]=useState(false)
@@ -17,30 +16,34 @@ const Header=()=>{
     //   }
     return(
         <div className='Header'>
-            <div><TopBanner/></div>
-            {/* <div className='img'>
+            <div className='top_banner'>
+                <TopBanner/>
+                </div>
+            <div className='Header-login-container'>
+            <div className='Header-logo'>
         <img src={img} alt=''/>
         </div>
-        <div>
 
-         <button className='btn1'
-         onClick={<Login></Login>}
-         >
-         Log in</button>
+        <div className='Header-buttons'>
+        <div>
+         <button className='btn1'>Log in</button>
         </div>
         <div>
-       <button className='btn2'
-       >Sign up</button>
+       <button className='btn2'>Sign up</button>
+       
        </div>
+       </div>
+
        <div>
-        <button className='button' >
-        <span className='icon'>
+       <div>
+        <button className='cart-icon' >
             <CartIcon/>
-        </span>
 
         </button>
-        </div> */}
-
+        </div>
+        </div>
+        
+        </div>
         </div>
     )
 }

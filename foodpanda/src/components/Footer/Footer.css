@@ -1,10 +1,33 @@
 .footer_logo{
     width: 100%;
     height: 3rem;
-    margin-left: 8%;
-    margin-right: 8%;
+}
+.footer_logo2{
+    width: auto;
+    height: 3rem;
+   margin-left: 40%;
+}
+.footer_logo2 img{
+    width: 3rem;
+    height: 2rem;
+    opacity: 0.6;
+}
+.footer_logo2 img:hover{
+    color: palevioletred;
+    border-color: blue;
+    background-color: blue;
 }
 .footer_logo img{
     width: 10rem;
     height: 3rem;
+}
+.footer_logos_container{
+    width: auto;
+    height: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8%;
+    padding-right: 8%;
+    overflow: hidden;
+
 }
