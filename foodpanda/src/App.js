@@ -6,6 +6,7 @@ import AppSection from './components/Body/AppsSection'
 import About from './components/Body/About';
 import Footer from './components/Footer/Footer'
 import FooterContent from './components/Footer/FooterContent';
+import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 <About/>
 <Footer/>
 <FooterContent/>
+<Login></Login>
 
     </div>
   );

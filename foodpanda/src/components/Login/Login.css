@@ -1,5 +1,17 @@
 .login-container{
- width: 40%;
- height: 40%;
+ width: 35%;
+ height: 20rem;
  box-shadow:1px 1px 1px dimgray;
+ background-color: purple;
+ border-radius: 8px;
+ display: block;
+ text-align: center;
+}
+.fb{
+width: 16%;
+height: 2rem;
+display:flexbox;
+text-align: center;
+align-items: baseline;
+margin: 0;
 }
