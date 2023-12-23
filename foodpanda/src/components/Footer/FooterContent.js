@@ -38,7 +38,7 @@ function FooterContent() {
           </div>
 
         </div>
-        <div className="country-grid">
+  <div className="country-grid">
   <a href="#">Laos</a>
   <a href="#">Cambodia</a>
   <a href="#">Myanmar</a>

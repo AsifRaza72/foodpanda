@@ -190,15 +190,11 @@ background-size: cover;
     margin: 0.5rem;
     border-radius: 12px;
   }
-  /* .d{
-    background-size: cover;
-    width: 15rem;
-    background-repeat: no-repeat;
 
-  } */
   .item1{
     height: 15rem;
     background-image: url('../Images/karahi2.avif');
     background-repeat: no-repeat;
     background-size: cover;
+
   }

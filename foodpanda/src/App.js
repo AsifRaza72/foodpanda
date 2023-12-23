@@ -16,7 +16,7 @@ function App() {
 <AppSection/>
 <About/>
 <Footer/>
-<FooterContent></FooterContent>
+<FooterContent/>
 
     </div>
   );

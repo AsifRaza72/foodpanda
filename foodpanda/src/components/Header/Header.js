@@ -2,7 +2,7 @@ import React from 'react'
 import img from "../Images/logo.png"
 import "../Header/Header.css"
 import  CartIcon from '../UI/Carts/CartIcon'
-import Login from '../Login/Login'
+// import Login from '../Login/Login'
 import TopBanner from './TopBanner'
 const Header=()=>{
     // const [click ,setclick]=useState(false)
@@ -26,11 +26,10 @@ const Header=()=>{
 
         <div className='Header-buttons'>
         <div>
-         <button className='btn1'>Log in</button>
+         <button type='button' className='btn1'>Log in</button>
         </div>
         <div>
-       <button className='btn2'>Sign up</button>
-       
+       <button type='button' className='btn2'>Sign up</button>
        </div>
        </div>
 
@@ -42,7 +41,6 @@ const Header=()=>{
         </button>
         </div>
         </div>
-        
         </div>
         </div>
     )

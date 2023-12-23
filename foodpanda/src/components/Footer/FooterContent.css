@@ -3,19 +3,22 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-left: 8%;
 }
 .country-grid {
     display: grid;
+    width: 90%;
     grid-template-columns: repeat(10, 1fr); /* Create 10 equal-width columns */
-    grid-gap: 10px; /* Add 10px spacing between items */
-    margin: 0 auto; /* Center the grid horizontally */
+    grid-gap: rem; /* Add 10px spacing between items */
+    margin-top: 2rem; /* Center the grid horizontally */
     height: 2rem;
+
   }
   .country-grid a {
     text-decoration: none; /* Remove default link underline */
     display: block;
     color: black; /* Ensure links take up full grid item space */
-    padding: 10px; /* Add padding for better clickability */
+    padding: 8px; /* Add padding for better clickability */
     border-right: 1px solid #ddd; /* Add right border to each country */
   }
   .country-grid a:last-child {
@@ -27,18 +30,24 @@
     color: blue;
   }
   .footer_content{
-   width: 90%;
+   width: 100%;
    height: auto;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   column-gap: 4rem;
-   padding-left: 8%;
+   column-gap: 2rem;
+   /* padding-left: 8%; */
    overflow: hidden;
    /* padding-right: 8%; */
+   color: gray;
   }
   .footer_content a{
     text-decoration: none;
-    margin-left: 0.7rem;
+    margin-left: 0.5rem;
+    color: grey;
+  }
+  .footer_content a:hover{
+    
+    color: blue;
   }
   .footer_content a:first-child{
     text-decoration: none;
