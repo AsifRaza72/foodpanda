@@ -4,16 +4,13 @@ import "../Header/Header.css"
 import  CartIcon from '../UI/Carts/CartIcon'
 // import Login from '../Login/Login'
 import TopBanner from './TopBanner'
-const Header=()=>{
+// import { Link } from 'react-router-dom'
+// import { useState } from 'react'
+const Header=({ onLoginClick })=>{
     // const [click ,setclick]=useState(false)
-    // const navigate = useNavigate();
-    // const clickHandler=()=>{
+    // const loginHandler=()=>{
     //     setclick(true)
-    //     navigate('/src/components/Body/Imagesection.js');
-    // };
-    // if (submitted) {
-    //     return <Lo/>;
-    //   }
+
     return(
         <div className='Header'>
             <div className='top_banner'>
@@ -26,7 +23,7 @@ const Header=()=>{
 
         <div className='Header-buttons'>
         <div>
-         <button type='button' className='btn1'>Log in</button>
+         <button type='button' className='btn1 'onClick={onLoginClick} >Log in</button>
         </div>
         <div>
        <button type='button' className='btn2'>Sign up</button>

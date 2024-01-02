@@ -33,8 +33,7 @@ function FooterContent() {
     <a href="">pandamart Grocery Delivery </a>
     <a href="">  pandapro - monthly subscription programme </a>
     <a href="">foodpanda home chef </a>
-    <a href=""> 
-      Become an affiliate Ramzan deals</a>
+    <a href="">Become an affiliate Ramzan deals</a>
           </div>
 
         </div>
@@ -54,6 +53,6 @@ function FooterContent() {
   </div>
   )
 }
- 
+
 
 export default FooterContent

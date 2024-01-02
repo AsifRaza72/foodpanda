@@ -1,4 +1,4 @@
-.login-container{
+/* .login-container{
  width: 35%;
  height: 20rem;
  box-shadow:1px 1px 1px dimgray;
@@ -6,6 +6,8 @@
  border-radius: 8px;
  display: block;
  text-align: center;
+ justify-content: center;
+ align-items: center;
 }
 .fb{
 width: 16%;
@@ -14,4 +16,74 @@ display:flexbox;
 text-align: center;
 align-items: baseline;
 margin: 0;
+} */
+/* Add these styles to your CSS file or component */
+
+/* Modal.css */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 5rem;
+  left: 35%;
+  width: 30%;
+  height: 80%;
+  background: white;
+ 
 }
+
+.modal.show {
+  display: block;
+}
+
+.modal-dialog {
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-header,
+.modal-footer {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  margin-bottom: 20px;
+}
+
+/* Close button style */
+.close {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Additional styles for the login form */
+.login-container {
+  /* Add your styles for the login form container */
+}
+
+.login-modal {
+  /* Add your styles specific to the login modal */
+}
+
+/* Add more styles as needed */
+.fb{
+  width: 16%;
+  height: 2rem;
+  display:flexbox;
+  text-align: center;
+  align-items: baseline;
+  margin: 0;
+  }

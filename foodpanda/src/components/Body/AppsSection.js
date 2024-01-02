@@ -3,7 +3,7 @@ import './AppsSection.css'
 const AppsSection=()=> {
 
 return(
-    
+
     <section className="home_apps_section">
     <img src="../Images/abbotabad.jpeg" alt=""/>
     <h1>App</h1>

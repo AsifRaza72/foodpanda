@@ -30,10 +30,10 @@
     color: blue;
   }
   .footer_content{
-   width: 100%;
+   width: 90%;
    height: auto;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 2fr 2fr 2fr;
    column-gap: 2rem;
    /* padding-left: 8%; */
    overflow: hidden;
