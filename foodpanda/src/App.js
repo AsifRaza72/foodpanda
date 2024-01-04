@@ -22,9 +22,9 @@ const [showModal, setShowModal] = useState(false);
     setShowModal(false);
   };
 
-  const handleLogin = (username, password) => {
+  const handleLogin = (u) => {
     // Add your login logic here
-    console.log('Logging in with:', username, password);
+    // console.log('Logging in with:', username, password);
     handleCloseModal(); // Close the modal after login
   };
 

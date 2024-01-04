@@ -35,7 +35,6 @@ color: black;
     justify-items: center;
     align-content: center;
    padding: 10px;
-   border-radius: 9px;
 
 }
 
@@ -45,10 +44,14 @@ color: black;
     display: flex;
     float: left;
     margin-right: 2%;
+    border: none;
     border-radius: 8px;
     /* border:0.1 black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2),
+              0 0 10px rgba(0, 0, 0, 0.2),
+              0 0 10px rgba(0, 0, 0, 0.2),
+              0 0 10px rgba(0, 0, 0, 0.2);
     opacity: 0.5;
-    border-radius: 4px;
     justify-content: space-between;
 }
  .content-button{

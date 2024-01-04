@@ -8,6 +8,7 @@
    background-color: white;
    position: fixed;
    margin: 0;
+   z-index: 1;
 }
 .top_banner{
   width: 100%;
@@ -26,7 +27,7 @@ height: 4rem;
 .Header-logo img{
     width: 22%;
     height:4rem;
-margin-left: 10%;    
+margin-left: 10%;
 
 }
 .Header-buttons{
