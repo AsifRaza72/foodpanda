@@ -6,7 +6,7 @@ import googlelogo from '../Images/270799.png'
 import applelogo from '../Images/apple-logo.png'
 const Login = ({ showModal, handleClose, handleLogin }) => {
   return (
-    <div className={`modal ${showModal ? 'show' : ''}`}   style={{ display: showModal ? 'block' : 'none' }}>
+    <div className={` ${showModal ?'modal' : ''}`}   style={{ display: showModal ? 'block' : 'none' }}>
       <div className="modal-dialog" >
         <div className="modal-content login-modal">
           <div className="modal-header">
